@@ -1,3 +1,5 @@
-let nombre = ["matias", "leonel"]
+let nombre = function(nombre1,nombre2){
+    return  "Hola " + nombre1 + ", hola " + nombre2;
+}
 
-let saludar = saludo;
+console.log(nombre(Matias, Leo));
